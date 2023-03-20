@@ -1,0 +1,76 @@
+
+
+body {
+  background-image:url("/static/images/CAPSTONEPHOTO.jpg");
+  object-fit:scale-down;
+
+}
+
+.home-hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ============================== Signed in Home */
+/*
+#home-aside > .user-card {
+  margin-top: 0;
+  overflow: hidden;
+}
+
+#home-aside > .user-card .card-link {
+  display: flex;
+}
+
+#home-aside > .user-card .card-link > p {
+  margin-left: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+#home-aside > .user-card .stat {
+  padding: 14px 0 7px;
+}
+
+#home-aside > .user-card .user-stats {
+  display: flex;
+  justify-content: space-around;
+}
+
+#home-aside > .user-card > div {
+  width: 100%;
+}
+
+#home-aside .card-link > p {
+  position: relative;
+}
+
+#home-aside .stat h4 {
+  text-align: left;
+}
+
+/* ========================== Signup/Login */
+
+#user_form input.form-control {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px;
+}
+
+/* =========================== Edit Page */
+
+.edit-btn-area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit-btn-area > .btn {
+  width: 48%;
+}
+
+/* =========================== Message Show page */
+
